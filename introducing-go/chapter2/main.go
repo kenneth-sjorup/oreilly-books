@@ -4,8 +4,8 @@ import "fmt"
 
 func main() {
 	// working with numeric literals
-	fmt.Println("1 + 1 =", 1 + 1)
-	fmt.Println("1.0 + 1.0 =", 1.0 + 1.0)
+	fmt.Println("1 + 1 =", 1+1)
+	fmt.Println("1.0 + 1.0 =", 1.0+1.0)
 
 	// working with strings
 	fmt.Println(len("Hello, World"))

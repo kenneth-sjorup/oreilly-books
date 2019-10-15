@@ -20,7 +20,7 @@ func main() {
 	}
 	fmt.Println(total / float64(len(x)))
 
-	slice1 := []int{ 1, 2, 3 }
+	slice1 := []int{1, 2, 3}
 	slice2 := append(slice1, 4, 5)
 	fmt.Println(slice1, slice2)
 
@@ -34,43 +34,43 @@ func main() {
 
 	elements := map[string]map[string]string{
 		"H": map[string]string{
-			"name": "Hydrogen",
+			"name":  "Hydrogen",
 			"state": "gas",
 		},
 		"He": map[string]string{
-			"name": "Helium",
+			"name":  "Helium",
 			"state": "gas",
 		},
 		"Li": map[string]string{
-			"name": "Lithium",
+			"name":  "Lithium",
 			"state": "solid",
 		},
 		"Be": map[string]string{
-			"name": "Beryllium",
+			"name":  "Beryllium",
 			"state": "solid",
 		},
 		"B": map[string]string{
-			"name": "Boron",
+			"name":  "Boron",
 			"state": "solid",
 		},
 		"C": map[string]string{
-			"name": "Carbon",
+			"name":  "Carbon",
 			"state": "solid",
 		},
 		"N": map[string]string{
-			"name": "Nitrogen",
+			"name":  "Nitrogen",
 			"state": "gas",
 		},
 		"O": map[string]string{
-			"name": "Oxygen",
+			"name":  "Oxygen",
 			"state": "gas",
 		},
 		"F": map[string]string{
-			"name": "Flourine",
+			"name":  "Flourine",
 			"state": "gas",
 		},
 		"Ne": map[string]string{
-			"name": "Neon",
+			"name":  "Neon",
 			"state": "gas",
 		},
 	}

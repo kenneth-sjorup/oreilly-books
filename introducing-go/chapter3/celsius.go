@@ -15,7 +15,7 @@ func main() {
 	fmt.Scanf("%f", &input)
 
 	// convert to celsius
-	output := (input - 32) * 5/9
+	output := (input - 32) * 5 / 9
 
-	fmt.Println( "Temperature in Celsius: ", output)
+	fmt.Println("Temperature in Celsius: ", output)
 }
